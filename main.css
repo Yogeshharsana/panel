@@ -1,4 +1,10 @@
 .logo {
-    max-width: 300px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
+}
+@media (max-width: 767px) {
+    .elementor-22 .elementor-element.elementor-element-1aad4b9 img {
+        width: 149%;
+        max-width: 181%;
+    }
 }
